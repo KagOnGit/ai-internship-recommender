@@ -1,0 +1,265 @@
+[
+  {
+    "id": 1,
+    "organization": "Aarohan Tech Labs",
+    "title": "Frontend Intern",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "city": "Pune",
+    "sector": "Technology",
+    "skills": [
+      "react",
+      "typescript",
+      "css"
+    ],
+    "education_levels": [
+      "B.Tech",
+      "BE",
+      "MCA"
+    ],
+    "stipend": 9000,
+    "women_empowerment": false,
+    "description": "Work with the product engineering team to build UI components."
+  },
+  {
+    "id": 2,
+    "organization": "Nari Shakti Foundation",
+    "title": "Community Outreach Intern",
+    "state": "Delhi",
+    "district": "New Delhi",
+    "city": "New Delhi",
+    "sector": "Social Impact",
+    "skills": [
+      "communication",
+      "event planning",
+      "hindi"
+    ],
+    "education_levels": [
+      "BA",
+      "B.Com",
+      "MSW"
+    ],
+    "stipend": 8000,
+    "women_empowerment": true,
+    "description": "Support women entrepreneurship bootcamps across Delhi."
+  },
+  {
+    "id": 3,
+    "organization": "GreenGrid Energy",
+    "title": "Sustainability Analyst Intern",
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "city": "Bengaluru",
+    "sector": "Clean Energy",
+    "skills": [
+      "excel",
+      "data analysis",
+      "lifecycle assessment"
+    ],
+    "education_levels": [
+      "B.Sc",
+      "M.Sc",
+      "MBA"
+    ],
+    "stipend": 10000,
+    "women_empowerment": false,
+    "description": "Analyze energy usage data and propose efficiency interventions."
+  },
+  {
+    "id": 4,
+    "organization": "HealthFirst Clinics",
+    "title": "Operations Intern",
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "city": "Hyderabad",
+    "sector": "Healthcare",
+    "skills": [
+      "operations",
+      "excel",
+      "communication"
+    ],
+    "education_levels": [
+      "BBA",
+      "MBA",
+      "BHM"
+    ],
+    "stipend": 7000,
+    "women_empowerment": false,
+    "description": "Coordinate clinic operations and patient outreach."
+  },
+  {
+    "id": 5,
+    "organization": "AgriNext Ventures",
+    "title": "AgriTech Product Intern",
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "city": "Ludhiana",
+    "sector": "Agriculture",
+    "skills": [
+      "iot",
+      "python",
+      "agriculture"
+    ],
+    "education_levels": [
+      "B.Tech",
+      "B.Sc",
+      "M.Sc"
+    ],
+    "stipend": 8500,
+    "women_empowerment": false,
+    "description": "Prototype sensors for smallholder farms."
+  },
+  {
+    "id": 6,
+    "organization": "Swasthya Saheli",
+    "title": "Digital Health Intern",
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "city": "Lucknow",
+    "sector": "HealthTech",
+    "skills": [
+      "ui/ux",
+      "figma",
+      "research"
+    ],
+    "education_levels": [
+      "B.Des",
+      "BFA",
+      "M.Des"
+    ],
+    "stipend": 9500,
+    "women_empowerment": true,
+    "description": "Design mobile flows for maternal health teleconsultations."
+  },
+  {
+    "id": 7,
+    "organization": "FinBridge Microfinance",
+    "title": "Data Science Intern",
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "city": "Chennai",
+    "sector": "Finance",
+    "skills": [
+      "python",
+      "sql",
+      "machine learning"
+    ],
+    "education_levels": [
+      "B.Tech",
+      "BE",
+      "M.Sc"
+    ],
+    "stipend": 12000,
+    "women_empowerment": true,
+    "description": "Model credit scoring for women-led microbusinesses."
+  },
+  {
+    "id": 8,
+    "organization": "UrbanSpaces",
+    "title": "Architecture Intern",
+    "state": "Maharashtra",
+    "district": "Mumbai Suburban",
+    "city": "Mumbai",
+    "sector": "Urban Development",
+    "skills": [
+      "autocad",
+      "revit",
+      "sustainability"
+    ],
+    "education_levels": [
+      "B.Arch",
+      "M.Arch"
+    ],
+    "stipend": 11000,
+    "women_empowerment": false,
+    "description": "Design affordable housing layouts with green features."
+  },
+  {
+    "id": 9,
+    "organization": "EduLeap",
+    "title": "EdTech Content Intern",
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "city": "Jaipur",
+    "sector": "Education",
+    "skills": [
+      "content writing",
+      "storytelling",
+      "illustration"
+    ],
+    "education_levels": [
+      "BA",
+      "B.Ed",
+      "MA"
+    ],
+    "stipend": 6000,
+    "women_empowerment": false,
+    "description": "Create interactive lessons for rural learners."
+  },
+  {
+    "id": 10,
+    "organization": "BlueWave Robotics",
+    "title": "Robotics Intern",
+    "state": "Gujarat",
+    "district": "Ahmedabad",
+    "city": "Ahmedabad",
+    "sector": "Manufacturing",
+    "skills": [
+      "robotics",
+      "c++",
+      "embedded systems"
+    ],
+    "education_levels": [
+      "B.Tech",
+      "BE",
+      "M.Tech"
+    ],
+    "stipend": 13000,
+    "women_empowerment": false,
+    "description": "Assist in building automation prototypes for assembly lines."
+  },
+  {
+    "id": 11,
+    "organization": "Saksham Analytics",
+    "title": "Business Analyst Intern",
+    "state": "Madhya Pradesh",
+    "district": "Indore",
+    "city": "Indore",
+    "sector": "Consulting",
+    "skills": [
+      "power bi",
+      "excel",
+      "market research"
+    ],
+    "education_levels": [
+      "MBA",
+      "PGDM",
+      "BBA"
+    ],
+    "stipend": 7500,
+    "women_empowerment": false,
+    "description": "Support consulting engagements with data dashboards."
+  },
+  {
+    "id": 12,
+    "organization": "SheLeads Digital",
+    "title": "Marketing Intern",
+    "state": "West Bengal",
+    "district": "Kolkata",
+    "city": "Kolkata",
+    "sector": "Marketing",
+    "skills": [
+      "seo",
+      "social media",
+      "canva"
+    ],
+    "education_levels": [
+      "BA",
+      "BBA",
+      "MBA"
+    ],
+    "stipend": 8500,
+    "women_empowerment": true,
+    "description": "Run digital campaigns spotlighting women founders."
+  }
+]

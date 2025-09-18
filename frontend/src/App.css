@@ -1,0 +1,168 @@
+:root {
+  color: #0f172a;
+  background-color: #f8fafc;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: transform 0.15s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.toggle-btn {
+  background: #0ea5e9;
+  color: #fff;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  border: 1px solid #cbd5f5;
+  font-size: 0.95rem;
+  background: #f1f5f9;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #2563eb, #9333ea);
+  color: #fff;
+}
+
+.secondary-btn {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.status-text {
+  font-size: 0.9rem;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.results-section {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.results-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.result-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.badge {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+}
+
+.why-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: #475569;
+}
+
+@media (min-width: 640px) {
+  form {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  label:nth-child(1),
+  label:nth-child(2),
+  label:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .actions {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .results-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
